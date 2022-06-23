@@ -73,6 +73,4 @@ class SimpleStorage : Storage<PriorityRule> {
     override fun toString(): String {
         return this.toList().toString()
     }
-
-
 }
